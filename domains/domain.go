@@ -17,7 +17,7 @@ is optional, but if it's present it has to be less than
 140 characters--it's a short blurb, not your life story.
 */
 func (domain *Domain) valid() bool {
-	return len(domain.DomainName) > 0
+	return len(domain.DomainName) > 3
 }
 
 /*
